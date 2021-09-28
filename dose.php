@@ -1,5 +1,6 @@
 <?php include("conexao.php");
 session_start();?>
+
 <!DOCTYPE html>
 <html lang = "pt-BR">
 	<head>
@@ -60,4 +61,3 @@ session_start();?>
 				header("location: index.php");
 			}
 		?>
-		

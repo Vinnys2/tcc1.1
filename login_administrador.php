@@ -3,7 +3,7 @@
 	<head>
 		<meta charset ='utf-8'/>
 		<!--<script src = "cadastrar_usuario.js"></script>-->
-		<title> Login - Carteirinha de vacinação </title>
+		<title> Login - Carteirinha de vacinação online </title>
 		<script src = "jquery-3.4.1.min.js"></script>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="estilo.css"/>
@@ -35,7 +35,6 @@
 							<div>
 								<button id='btn' class='btn btn-info'>LOGIN</button><br/>
 							</div>
-							<!--<a href='esqueceu_senha.php'>Esqueceu a senha?</a><br />-->
 							<a href='index.php'>Não é administrador? Clique aqui e selecione outra forma de login.</a>
 						</div></form>
 			</div>

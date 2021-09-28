@@ -32,5 +32,4 @@ if(($resultado_vacina) AND ($resultado_vacina->num_rows != 0)){
 	echo "</table>";
 }else{
 	echo "Nenhuma vacina encontrada";
-	
 }

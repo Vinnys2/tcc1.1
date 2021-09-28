@@ -5,6 +5,7 @@
 		<title></title>
 		<link rel="stylesheet" href="estilo.css"/>
 	</head>
+	
 	<body>
 <?php
 	include("menu.php");
@@ -12,13 +13,11 @@
 	include("conexao.php");
 	
 	$nome_postinho = $_POST["nome_postinho"];
-	$cep = $_POST["cep"];
-	$numero = $_POST["numero"];
+	$endereco = $_POST["endereco"];
 	
-	$insercao = "INSERT INTO local (nome_postinho, cep, numero)
+	$insercao = "INSERT INTO local (nome_postinho, endereco)
 						VALUES ('$nome_postinho',
-								'$cep',
-								'$numero'
+								'$endereco'
 								)";
 	mysqli_error($conexao);
 	mysqli_query($conexao, $insercao)

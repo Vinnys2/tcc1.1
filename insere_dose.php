@@ -32,7 +32,7 @@
 	mysqli_query($conexao, $insercao)
 		or die(mysqli_error($conexao));
 	
-	function validaCPF($cpf){
+	/* function validaCPF($cpf){  ---> Validação de cpf (pego de internet), foi retirado pois estava spamando warnings
 		$cpf = preg_replace('/[^0~9]/','',$cpf);
 		
 		$digitoA = 0;
@@ -54,6 +54,7 @@
 		$somaA = (($digitoA%11) < 2 ) ? 0 : 11-($digitoA%11);
 		$somaB = (($digitoB%11) < 2 ) ? 0 : 11-($digitoB%11);
 		
+	
 		if($somaA != $cpf[9] || $somaB != $cpf[10]){
 			return false;
 		}else{
@@ -65,9 +66,14 @@
 	}else{
 		echo 'Inválido';
 	}
+	
+	*/
 		
 	echo "<script language=javascript>alert( 'Cadastro realizado com sucesso!' );</script>";
-	header("location: dose.php");
+	header("location:dose.php");
+	
+
 ?>
+
 	<body>
 </html>

@@ -17,13 +17,14 @@
 		$con = mysqli_query($conexao, $consulta) or die ($mysqli->error);
 		$dado=$con->fetch_array();
 		
+		
 ?>
-	<title> Perfil - Carteirinha de vacinação </title>
+	<title> Perfil - Carteirinha de vacinação digital </title>
 	</head>
 	<body class='bg-info'>
 	<div>
 		<div>
-			<h1 align='center'> Dados do usuário </h1>
+			<h1 align='center'> Dados de usuário </h1>
 		</div>
 		<div class='container'>
 			<table class='table table-hover'>			

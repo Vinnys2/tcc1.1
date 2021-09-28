@@ -5,8 +5,12 @@
 		<script src = "jquery-3.4.1.min.js"></script>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="estilo.css"/>
-		<div  width='10px'class='bg-primary  row container-fluid'>
-			<h1><img src='img/logo.png' width='100px'/> Sistema de Auxílio à Vacinação (famosa carteirinha)</h1>
+		  <div style="background-color: gray">   
+
+			<div  width='10px'class='row container-fluid'>
+		
+		</div>
+		<h1><img src='img/logo.png' width='100px'/> Carteirinha online de vacinação</h1>
 		</div>
 	
 	
@@ -14,7 +18,7 @@
 			if(isset($_SESSION["autorizado"])){
 		?>
 			
-		<div class='row container-fluid'>				
+		<div class='row container-fluid'>			
 			
 			<?php //checar a página que o usuário fez login
 					if(isset($_SESSION["autorizado"]) and $_SESSION["pagina"] == "paciente"){

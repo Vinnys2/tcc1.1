@@ -14,7 +14,7 @@
 			<div class='container-head'>
 				<div class='titulo'>
 					<img src='img/logo3.png' class='logo'/>
-					<h1 class='center'>Sistema de Auxílio à Vacinação</h1> 
+					<h1 class='center'>Carteirinha de vacinação</h1> 
 				</div>				
 			</div>
 			<div class='container col-3 bg-info'>

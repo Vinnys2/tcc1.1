@@ -37,4 +37,3 @@
 				header("location: index.php");
 			}
 		?>
-		

@@ -13,9 +13,7 @@
 	<body class='bg-info'>
 	<div>
 		<div align='center'>
-			<h1> Últimas Notícias </h1>
-			<?php include ("rss_noticia.php"); ?>
-		</div>
+			<h1> Bem vindo a carteirinha do paciente!!</h1>
 	</div>
 	
 	</body>
@@ -25,4 +23,3 @@
 				header("location: index.php");
 			}
 		?>
-		

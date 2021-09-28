@@ -9,7 +9,7 @@
 		<style>
 		</style>
 	</head>
-		<h1 class='logo_agente'><img src='img/logo_agente.png' width='100px'/>  Sistema de Auxílio à Vacinação</h1>
+		<h1 class='logo_agente'><img src='img/logo_agente.png' width='100px'/> Carteirinha online de vacinação</h1>
 		<div align='center'>
 			<?php 
 				//if(isset($_SESSION["autorizado"])){ 

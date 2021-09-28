@@ -4,7 +4,7 @@
 --
 -- Host: 127.0.0.1
 -- Tempo de geração: 31-Dez-2020 às 03:39
--- Versão do servidor: 10.4.14-MariaDB
+-- Versão do servidor: 10.4.14-Mari B
 -- versão do PHP: 7.4.10
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -115,7 +115,6 @@ CREATE TABLE `paciente` (
   `email` varchar(100) NOT NULL,
   `data_nascimento` date NOT NULL,
   `sexo` char(10) NOT NULL,
-  `gestante` char(1) NOT NULL,
   `cpf_responsavel` int(11) DEFAULT NULL,
   `endereco` varchar(100) NOT NULL,
   `permissao` int(11) NOT NULL,
@@ -127,10 +126,12 @@ CREATE TABLE `paciente` (
 -- Extraindo dados da tabela `paciente`
 --
 
-INSERT INTO `paciente` (`cpf`, `nome`, `email`, `data_nascimento`, `sexo`, `gestante`, `cpf_responsavel`, `endereco`, `permissao`, `senha`, `telefone`) VALUES
-('123', 'AiinZ OoalGown', 'ainz@gmail.com', '1100-10-15', 'masculino', '', 123, 'Grande tumba Nazarick', 0, 123, 1997562602),
-('231', 'Son Goku', 'goku@asd', '2020-10-14', 'masculino', 'n', 123, 'Cidade do Norte', 2, 123, 1793829380),
-('321', 'Rimura Tempest', 'slime@asd', '1020-09-12', 'masculino', 'n', 123, 'Jura Tempest', 1, 123, 1973829380);
+INSERT INTO `paciente` (`cpf`, `nome`, `email`, `data_nascimento`, `sexo`,`cpf_responsavel`, `endereco`, `permissao`, `senha`, `telefone`) VALUES
+('123', 'AiinZ OoalGown', 'ainz@gmail.com', '1100-10-15', 'masculino', 123, 'Grande tumba Nazarick', 0, 123, 1997562602),
+('231', 'Son Goku', 'goku@asd', '2020-10-14', 'masculino', 123, 'Cidade do Norte', 2, 123, 1793829380),
+('321', 'Rimura Tempest', 'slime@asd', '1020-09-12', 'masculino', 123, 'Jura Tempest', 1, 123, 1973829380);
+
+
 
 -- --------------------------------------------------------
 

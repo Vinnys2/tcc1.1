@@ -17,8 +17,7 @@
 	$data_nascimento = $_POST["data_nascimento"];
 	$sexo = $_POST["sexo"];
 	$cpf_responsavel = $_POST["cpf_responsavel"];
-	$cep = $_POST["cep"];
-	$numero = $_POST["numero"];
+	$endereco = $_POST["endereco"];
 	$permissao = 0;
 	$senha = $_POST["senha"];
 	$telefone = $_POST["telefone"];	
@@ -29,20 +28,19 @@
 								'$email',
 								'$data_nascimento',
 								'$sexo',
-								'$cpf_responsavel',								
+								'$cpf_responsavel',
+								'$endereco',								
 								'$permissao',
 								'$senha',
-								'$telefone',			
-								'$cep',
-								'$numero'
+								'$telefone'
 								)";
 				
 	mysqli_error($conexao);
 	mysqli_query($conexao, $insercao)
-		or die("0");
+		or die("Erro no cadastro");
 
 		
-	echo "<script language=javascript>alert( 'Cadastro realizado com sucesso!!!' );</script>";
+	echo "<script language=javascript>alert( 'Cadastro realizado com sucesso!' );</script>";
 	header("location: cadastro.php");
 ?>
 	<body>

@@ -1,4 +1,5 @@
 <?php
+
 	$id = filter_input(INPUT_GET, "id_postinho");
 	
 	$link = mysqli_connect("localhost", "root", "", "tcc");
@@ -14,4 +15,3 @@
 	}else{
 		die("Erro: " . mysqli_error($link));
 	}
-	

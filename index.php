@@ -21,7 +21,7 @@
 		<div class='container-fluid'>
 				
 			<div align='center' class='container-fluid'>
-				<h1> Inicializar como (escolha uma das opções abaixo) </h1>
+				<h1> Logar como... </h1>
 				
 				<div class='row container-fluid'>
 					<a class='col-lg-4 col-sm-12' href='login_agente.php'><img src='img/agente1.png' width='300px'/></a>
