@@ -28,6 +28,7 @@
 			<h1>Alterar paciente.</h1>
 			<form method = "get" action = "alteracao_paciente.php"><div class='form-group'>
 						<input type='hidden' name='cpf_antigo' value='<?php echo $cpf_antigo; ?>'/>
+					
 						
 						<label for="permissao">Nível de permissão:</label>
 							<select name="permissao" id="permissao">
@@ -38,7 +39,7 @@
 							</select>
 							
 						<label align='left'>CPF
-							<input required='required' class='form-control' value='<?php echo $cpf; ?>' maxlength="11" type="number" name="cpf" placeholder="CPF">
+							<input required='required' class='form-control' value='<?php echo $cpf; ?>' maxlength="11" type="number" name="cpf" placeholder="CPF" >
 						</label>
 						<label align='left'>CPF responsável 
 							<input class='form-control' value='<?php echo $cpf_responsavel; ?>' maxlength='11' type="number" name="cpf_responsavel" placeholder="CPF">
