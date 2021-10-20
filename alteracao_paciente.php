@@ -3,6 +3,8 @@
 	
 	$cpf = filter_input(INPUT_GET, "cpf");
 	$cpf_antigo = filter_input(INPUT_GET, "cpf_antigo");
+	
+	
 	$nome = filter_input(INPUT_GET, "nome");
 	$email= filter_input(INPUT_GET, "email");
 	$data_nascimento = filter_input(INPUT_GET, "data_nascimento");
@@ -12,7 +14,7 @@
 	$permissao = filter_input(INPUT_GET, "permissao");
 	$senha = filter_input(INPUT_GET, "senha");
 	$telefone = filter_input(INPUT_GET, "telefone");
-
+	
 	
 	$link = mysqli_connect("localhost", "root", "", "tcc");
 	if($link){
@@ -27,7 +29,7 @@
 														endereco='$endereco',
 														permissao='$permissao', 
 														senha='$senha', 
-														telefone='$telefone',
+														telefone='$telefone'
 													WHERE cpf='$cpf_antigo';");
 		if($query){
 			header("location:paciente.php");
