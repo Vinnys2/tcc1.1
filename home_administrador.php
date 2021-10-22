@@ -3,7 +3,7 @@
 <html lang = "pt-BR">
 	<head>
 		<meta charset = "UTF-8" />
-		<title> SAV - HOME </title>
+		<title> HOME ADM </title>
 	
 	<?php
 		include ("menu.php");
@@ -14,7 +14,6 @@
 	<body class='body_administrador'>
 		<div class='form-group container-fluid' align='center'>
 			<div align='center' class='container-fluid'>
-				<h1> Gerenciar: </h1>
 				<div class='row container-fluid'>
 					<a class='col-lg-6 col-sm-12' href='paciente.php'><img src='img/usuarios.png' width='300px'/></a>
 					<a class='col-lg-6 col-sm-12' href='local.php'><img src='img/postos.png' width='300px'/></a>

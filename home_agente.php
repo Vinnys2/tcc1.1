@@ -3,7 +3,7 @@
 <html lang = "pt-BR">
 	<head>
 		<meta charset = "UTF-8" />
-		<title> SAV - HOME </title>
+		<title>  HOME AGENTE </title>
 		<?php
 			include ("menu.php");
 			include("verificacao_agente.php");
@@ -13,7 +13,7 @@
 	<body class='body_agente'>
 		<div class='form-group container-fluid' align='center'>
 			<div align='center' class='container-fluid'>
-				<h1> Acessar: </h1>
+				
 				<div class='row container-fluid'>
 					<a class='col-lg-4 col-sm-12' href='consulta_paciente.php'><img src='img/pacientes.png' width='300px'/></a>
 					<a class='col-lg-4 col-sm-12' href='vacina.php'><img src='img/vacinas.png' width='300px'/></a>

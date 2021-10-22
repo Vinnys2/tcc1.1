@@ -142,7 +142,7 @@ INSERT INTO `paciente` (`cpf`, `nome`, `email`, `data_nascimento`, `sexo`,`cpf_r
 CREATE TABLE `vacina` (
   `id_vacina` int(11) NOT NULL,
   `tipo` varchar(100) NOT NULL,
-  `descricao` varchar(100) NOT NULL
+  `descricao` varchar(300) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -151,13 +151,13 @@ CREATE TABLE `vacina` (
 
 INSERT INTO `vacina` (`id_vacina`, `tipo`, `descricao`) VALUES
 (1, 'Triplice bacteriana', 'Contra 99,9% das bactérias'),
-(2, 'Variola', 'Graças a vacina um virus letal como a variola pode ser erradicada.'),
-(3, 'Pneumonia', 'A pneumonia é uma doença que pode atingir pessoas de todas as idades, mas é mais perigosa para crian'),
-(4, 'Febre Amarela', 'A vacina da febre amarela é indicada para pessoas de 6 meses a 60 anos que moram ou que vão viajar p'),
-(5, 'Gripe', 'O vírus causador da gripe apresenta uma alta capacidade de mutação. Por causa disso, a vacina é essencial'),
-(6, 'HPV', 'A vacina quadrivalente contra o HPV, ou papiloma vírus humano, também é uma forma de proteção contra'),
-(7, 'Covid-19', 'Uma nova mutação do Sars-cov assola o mundo atual, por isso, a vacinação é o único meio de dete-la'),
-(9, 'Mers', 'Também um tipo de coronavírus que tem um potencial de transmissão alto, porém menos letal que o sars');
+(2, 'Variola', 'Gracas a vacina um virus letal como a variola pode ser erradicada.'),
+(3, 'Pneumonia', 'A pneumonia e uma doenca que pode atingir pessoas de todas as idades, mas e mais perigosa para criancas'),
+(4, 'Febre Amarela', 'A vacina da febre amarela e indicada para pessoas de 6 meses a 60 anos que moram ou que vao viajar p'),
+(5, 'Gripe', 'O virus causador da gripe apresenta uma alta capacidade de mutacao. Por causa disso, a vacina e essencial'),
+(6, 'HPV', 'A vacina quadrivalente contra o HPV, ou papiloma vírus humano, tambem e uma forma de protecao contra'),
+(7, 'Covid-19', 'Uma nova mutacaoo do Sars-cov assola o mundo atual, por isso, a vacinacao é o unico meio de dete-la'),
+(9, 'Mers', 'Tambem um tipo de coronaverus que tem um potencial de transmissao alto, porem menos letal que o sars');
 
 --
 -- Índices para tabelas despejadas

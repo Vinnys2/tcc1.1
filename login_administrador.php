@@ -7,7 +7,7 @@
 		<script src = "jquery-3.4.1.min.js"></script>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="estilo.css"/>
-		<?php include("menu.php"); ?>	
+		<?php include("menu5.php"); ?>	
 	</head>
 	<body class='body_administrador'>
 			<!--<div class="">

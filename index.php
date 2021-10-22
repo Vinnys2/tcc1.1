@@ -17,6 +17,7 @@
 			}
 		}
 	?>
+	<?php include("menu5.php"); ?>	
 	<body class='bg-info'>
 		<div class='container-fluid'>
 				
