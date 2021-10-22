@@ -15,7 +15,7 @@ echo  '<html>
 		</label>
 		
 			<label class="logo">
-			<img src="img/logo.png" width="60px"/> Carteirinha online de vacinação</label>
+			<img src="img/logo.png" width="85px"/> Carteirinha online de vacinação</label>
 	
 		<ul>		
 			
@@ -29,4 +29,5 @@ echo  '<html>
 </body>
 </html>';
 
+							
 ?>

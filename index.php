@@ -22,12 +22,16 @@
 		<div class='container-fluid'>
 				
 			<div align='center' class='container-fluid'>
-				<h1> Logar como... </h1>
+				<h1> Iniciar como... </h1>
+				<br/>
+				<br/>
+				<br/>
+				
 				
 				<div class='row container-fluid'>
-					<a class='col-lg-4 col-sm-12' href='login_agente.php'><img src='img/agente1.png' width='300px'/></a>
-					<a class='col-lg-4 col-sm-12' href='login_paciente.php'><img src='img/paciente1.png' width='300px'/></a>
-					<a class='col-lg-4 col-sm-12' href='login_administrador.php'><img src='img/administrador1.png' width='300px'/></a>
+					<a class='col-lg-4 col-sm-12' href='login_agente.php'><img src='img/agente1.png' width='150px'/></a>
+					<a class='col-lg-4 col-sm-12' href='login_paciente.php'><img src='img/paciente1.png' width='200px'/></a>
+					<a class='col-lg-4 col-sm-12' href='login_administrador.php'><img src='img/administrador1.png' width='150px'/></a>
 				</div>
 				
 				<div>

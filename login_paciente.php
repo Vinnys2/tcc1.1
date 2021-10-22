@@ -20,7 +20,7 @@
 		<div class='container-fluid'>
 			<div align='center' class='container-fluid'>
 						<!-- LOGIN -->
-						<h3>Login para Pacientes</h3>	
+						<h3>Acessar login dos pacientes :3</h3>	
 						<form method ='post' action='validacao.php'><div class='form-group'>
 							<?php
 								if(isset($_GET["erro"])){
@@ -38,7 +38,8 @@
 							<div>
 								<button id='btn' class='btn btn-info'>LOGIN</button><br/>
 							</div>
-							<!--<a href='esqueceu_senha.php'>Esqueceu a senha?</a><br />-->
+							
+							<br/>
 							<a href='index.php'>Não é paciente? Clique aqui e selecione outra forma de login.</a>
 						</div></form>
 			</div>

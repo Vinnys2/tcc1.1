@@ -11,9 +11,17 @@
 		?>
 	</head>
 	<body class='bg-info'>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	<br/>
+	
 	<div>
 		<div align='center'>
-			<h1> Bem vindo a carteirinha do paciente!!</h1>
+			<h1> Bem vindo a sua carteirinha.</h1>
 	</div>
 	
 	</body>

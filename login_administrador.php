@@ -17,7 +17,7 @@
 				
 			<div align='center'>
 						<!-- LOGIN -->
-						<h3>Login para Administradores</h3>	
+						<h3>Acessar Administração</h3>	
 						<form method ='post' action='validacao.php'><div class='form-group'>
 							<?php
 								if(isset($_GET["erro"])){
@@ -35,6 +35,7 @@
 							<div>
 								<button id='btn' class='btn btn-info'>LOGIN</button><br/>
 							</div>
+							<br/>
 							<a href='index.php'>Não é administrador? Clique aqui e selecione outra forma de login.</a>
 						</div></form>
 			</div>
