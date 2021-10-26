@@ -3,7 +3,7 @@
 <html lang = "pt-BR">
 	<head>
 		<meta charset = "UTF-8" />
-		<title> SAV - HOME</title>
+		<title>HOME-PACIENTE</title>
 		<?php
 			include("verificacao_paciente.php");	
 			include ("menu.php");

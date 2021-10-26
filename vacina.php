@@ -3,7 +3,7 @@
 <html lang = "pt-BR">
 	<head>
 		<meta charset = "UTF-8" />
-		<title> SAV - HOME </title>
+		<title> VACINAS </title>
 		<?php
 			include ("menu.php");
 			include("verificacao_agente.php");

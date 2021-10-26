@@ -18,9 +18,11 @@ if($parametro){
 						WHERE cpf_paciente = $parametro  
 						ORDER BY data_tomada DESC ";
 						
-	$result_nome="SELECCT nome FROM paciente WHERE cpf LIKE '$parametro'";
+	$result_nome="SELECT nome FROM paciente WHERE cpf LIKE '$parametro'";
+	
+	
 					
-//$result_dose = "SELECT * FROM lote INNER JOIN dose ON lote.id = dose.lote WHERE cpf_paciente = $cpf AND data_agendada = '00-00-0000' ORDER BY data_tomada DESC";
+
 
 //utilizar ele no while ao inves das outras consultas.
 							
@@ -31,7 +33,7 @@ $resultado_nome = mysqli_query($conexao, $result_nome);
 //montando a carteirinha
 if(($resultado_dose) AND ($resultado_dose->num_rows != 0)){
 	echo"<div class=container>
-	<h1 align='left'>CPF: $parametro <br/>Nome:  </h1>
+	<h1 align='left'>CPF: $parametro </h1>
 	<h2> Carteirinha </h2><table class='table table-hover'>
 	<thead>
 		<tr> 

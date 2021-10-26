@@ -22,10 +22,11 @@
 		<div class='container-fluid'>
 				
 			<div align='center' class='container-fluid'>
-				<h1> Iniciar como... </h1>
+				
 				<br/>
 				<br/>
 				<br/>
+				</br>
 				
 				
 				<div class='row container-fluid'>

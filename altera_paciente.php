@@ -3,7 +3,7 @@
 <html lang = "pt-BR">
 	<head>
 		<meta charset = "UTF-8" />
-		<title> SAV - HOME </title>
+		<title> Alteração de dados </title>
 		<?php
 			include ("menu.php");
 			include("verificacao_administrador.php");
@@ -68,11 +68,11 @@
 						<label class=''>Sexo:<br />
 							<label for='m'>
 								<input required='required' class='form-check-input' type="radio" name="sexo" value="masculino" id='m'/>
-								<img src='img/male.png' class='img'>
+								<img src='img/male.png' class='img' width="85px">
 							</label>
 							<label for='f'>
 								<input required='required' class='form-check-input' type="radio" name="sexo" value="feminino" id='f'/>
-								<img src='img/female.png' class='img'>
+								<img src='img/female.png' class='img' width="85px">
 							</label>
 						</label>
 						</div>											
