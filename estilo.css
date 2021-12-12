@@ -86,3 +86,80 @@ element.style {
 .bg-info {
     background-color: #d3d3d3;
 }
+
+.body_curiosidade {
+  background:  #FFFFFF;
+  color: #555;
+  font-family: Arial, sans-serif;
+}
+
+.corpo {
+  width: 960px;
+  margin: auto;
+}
+
+.conteudo {
+  display: table;
+}
+
+.imagem {
+  display: table-cell;
+  float: left;
+}
+.imagem1 {
+  display: table-cell;
+  float: left;
+  margin-left: 160px;
+}
+.texto {
+  display: table-cell;
+  float: left;
+  width: 300px;
+  margin-left: 20px;
+  font-size: 20px;
+	font-style: italic bold;
+}
+
+.h1_curiosidade
+{
+	font-size: 40px;
+	font-style: italic bold;
+
+	
+} 
+
+.h1_curiosidade1
+{
+	font-size: 40px;
+	font-style: italic bold;
+	margin-left: 160px;
+
+	
+} 
+
+.div_comum
+{
+	margin-left: 20px;
+	font-size: 20px;
+	font-style: italic bold;
+}
+.h1_comum
+{
+	font-size: 40px;
+	font-style: italic bold;
+	margin-left: 10px;
+
+	
+} .alinhado
+{
+		font-size: 20px;
+		font-style: italic bold;
+		margin-left: 350px;
+}
+.div_comum1
+{
+	margin-left: 180px;
+	font-size: 20px;
+	font-style: italic bold;
+}
+

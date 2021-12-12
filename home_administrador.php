@@ -17,10 +17,7 @@
 	<body class='body_administrador'>
 		<div class='form-group container-fluid' align='center'>
 			<div align='center' class='container-fluid'>
-				<div class='row container-fluid'>
-					<a class='col-lg-6 col-sm-12' href='paciente.php'><img src='img/usuarios.png' width='300px'/></a>
-					<a class='col-lg-6 col-sm-12' href='local.php'><img src='img/postos.png' width='250px'/></a>
-				</div>
+				<h2>Área Restrita</h2>
 			</div>
 		</div>
 	</body>

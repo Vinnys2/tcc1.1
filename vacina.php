@@ -4,6 +4,7 @@
 	<head>
 		<meta charset = "UTF-8" />
 		<title> VACINAS </title>
+		
 		<?php
 			include ("menu.php");
 			include("verificacao_agente.php");

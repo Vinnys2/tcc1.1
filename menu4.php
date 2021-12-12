@@ -1,4 +1,5 @@
 <?php
+
 echo  '<html>
 <head>
 	<meta charset="utf-8">
@@ -19,17 +20,16 @@ echo  '<html>
 	
 		<ul>		
 			
-			<li><a href="home_paciente.php">| Home |</a></li>
+		
+			
+							<li><a href="home_paciente.php">| Home |</a></li>
 			<li><a href="carteirinha.php"> Carteirinha |</a></li>
 			<li><a href="curiosidades.php"> Curiosidades |</a></li>
 			<li><a href="logout.php"> Logout |</a></li>
-			
-			
 		</ul>
 	</nav>
 
 </body>
 </html>';
 
-							
 ?>

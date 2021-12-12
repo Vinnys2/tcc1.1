@@ -4,6 +4,7 @@
 	<head>
 		<meta charset = "UTF-8" />
 		<title>  HOME AGENTE </title>
+		<link rel="stylesheet" type="text/css" href="estilo.css" />
 		<?php
 			include ("menu.php");
 			include("verificacao_agente.php");
@@ -13,20 +14,7 @@
 	<body class='body_agente'>
 		<br/>
 		<div class='form-group container-fluid' align='center'>
-			<div align='center' class='container-fluid'>
-				
-				<div class='row container-fluid'>
-					<a class='col-lg-4 col-sm-12' href='consulta_paciente.php'><img src='img/pacientes.png' width='250px'/></a>
-					<a class='col-lg-4 col-sm-12' href='vacina.php'><img src='img/vacinas.png' width='250px'/></a>
-					<a class='col-lg-4 col-sm-12' href='dose.php'><img src='img/doses.png' width='250px'/></a>
-				</div>
-				<br/>
-				<div class='row container-fluid'>
-					<a class='col-lg-4 col-sm-12' href='agenda_dose.php'><img src='img/agendamentos.png' width='250px'/></a>
-					<a class='col-lg-4 col-sm-12' href='lote.php'><img src='img/lotes.png' width='250px'/></a>
-					<a class='col-lg-4 col-sm-12' href='cadastro.php'><img src='img/cadastros.png' width='250px'/></a>
-				</div>
-			</div>
+			<h2>Área Restrita</h2>
 		</div>
 	</body>
 </html>
