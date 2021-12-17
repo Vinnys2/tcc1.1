@@ -7,6 +7,8 @@
 	</head>
 	<body>
 <?php
+if(!empty($_POST['cpf']))
+{
 	include("menu.php");
 	
 	include("conexao.php");
@@ -21,6 +23,7 @@
 	$permissao = 0;
 	$senha = $_POST["senha"];
 	$telefone = $_POST["telefone"];	
+
 	
 	$insercao = "INSERT INTO paciente
 						VALUES ('$cpf',
@@ -36,12 +39,15 @@
 								)";
 				
 	mysqli_error($conexao);
-	mysqli_query($conexao, $insercao)
-		or die("Erro no cadastro");
+	mysqli_query($conexao, $insercao);
+	
 
 		
-	echo "<script language=javascript>alert( 'Cadastro realizado com sucesso!' );</script>";
-	header("location: cadastro.php");
+	echo  "<script language=javascript>alert( 'Cadastro realizado com sucesso!' )</script>";
+	header( "refresh:0.5;url=cadastro.php" );
+}
+	else("Erro no cadastro");
+
 ?>
 	<body>
 </html>

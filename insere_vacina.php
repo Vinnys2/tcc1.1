@@ -23,8 +23,8 @@
 		or die("0");
 
 		
-	echo "<script language=javascript>alert( 'Cadastro realizado com sucesso!' );</script>";
-	header("location: vacina.php");
+	echo "<script language=javascript>alert( 'Vacina cadastrada com sucesso!' );</script>";
+	header( "refresh:0.5;url=vacina.php" );
 ?>
 	<body>
 </html>

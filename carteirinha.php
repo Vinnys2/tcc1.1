@@ -10,14 +10,14 @@
 	<body class='bg-info'>
 	<div >
 		<div class='container-fluid'>
-			<h2><b> Seus vacinas e agendamentos </b></h2>
+			<h2><b> Vacinas e agendamentos </b></h2>
 					<div><!-- a div se manterá oculta até clicar no nome do dono da carteirinha -->
 					<?php include("proximas_vacinas.php"); ?>
 						
 					</div>
 
 				
-			<h2><b> Seus Dependentes </b></h2>			
+			<h2><b> Dependentes </b></h2>			
 				
 						<div><!-- a div se manterá oculta até clicar no nome do dono da carteirinha -->
 						<?php include("proximas_vacinas_dep.php"); ?>

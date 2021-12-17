@@ -40,7 +40,7 @@
 			<h1 class='h1_comum'>Doenças Controladas</h1>
 					
 				<div class='div_comum'>
-					Nos dias de hoje, há 19 tipos diferentes de vacinas disponíveis, que conferem proteção contra mais de 20 doenças. Confira algumas doenças que podem e foram evitadas.
+					Nos dias de hoje, há 19 tipos diferentes de vacinas disponíveis, que conferem proteção contra mais de 20 doenças. Confira algumas doenças que podem e foram evitadas:
 					</div>
 					<br/>
 							<ul class='alinhado'>
