@@ -26,8 +26,8 @@
 		or die(mysqli_error($conexao));
 
 		
-	echo "<script language=javascript>alert( 'Cadastro realizado com sucesso!' );</script>";
-	header("location: agenda_dose.php");
+	echo "<script language=javascript>alert( 'Agendamento realizado com sucesso!' );</script>";
+	header( "refresh:0.1;url=agenda_dose.php" );
 ?>
 	<body>
 </html>

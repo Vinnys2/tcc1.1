@@ -10,7 +10,9 @@
 		$query = mysqli_query($link, "UPDATE paciente SET senha='$senha'
 															WHERE cpf='$id';");
 		if($query){
-			header("location:perfil.php");
+			
+			header( "refresh:0.1s;url=perfil.php" );
+			
 		}else{
 			die("Erro: ". mysqli_error($link));
 		}

@@ -9,7 +9,8 @@
 		$query = mysqli_query($link, "UPDATE paciente SET email='$email'
 															WHERE cpf='$id';");
 		if($query){
-			header("location:perfil.php");
+			echo "<script language=javascript>alert( 'Alteração  realizada com sucesso!' );</script>";
+			header( "refresh:0.1s;url=perfil.php" );
 		}else{
 			die("Erro: ". mysqli_error($link));
 		}

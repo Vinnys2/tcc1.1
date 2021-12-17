@@ -44,7 +44,7 @@ if(!empty($_POST['cpf']))
 
 		
 	echo  "<script language=javascript>alert( 'Cadastro realizado com sucesso!' )</script>";
-	header( "refresh:0.5;url=cadastro.php" );
+	header( "refresh:0.1;url=cadastro.php" );
 }
 	else("Erro no cadastro");
 

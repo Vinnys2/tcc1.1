@@ -32,7 +32,9 @@
 														telefone='$telefone'
 													WHERE cpf='$cpf_antigo';");
 		if($query){
-			header("location:paciente.php");
+			echo "<script language=javascript>alert( 'Alteração  realizada com sucesso!' );</script>";
+			header( "refresh:0.1;url=paciente.php" );
+			
 		}else{
 			die("Erro: ". mysqli_error($link));
 		}

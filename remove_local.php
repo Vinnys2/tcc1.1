@@ -4,11 +4,12 @@
 	
 	$link = mysqli_connect("localhost", "root", "", "tcc");
 	if($link){
-		echo $id;
+		//echo $id;
 
 		$query = mysqli_query($link, "DELETE FROM local WHERE id_postinho='$id';");
 		if($query){
-			header("location:local.php");
+			echo "<script language=javascript>alert( 'Local removido com sucesso!' );</script>";
+			header( "refresh:0.5;url=local.php" );
 		}else{
 			die("Erro: ". mysqli_error($link));
 		}

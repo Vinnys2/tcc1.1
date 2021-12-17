@@ -10,7 +10,8 @@
 		$query = mysqli_query($link, "UPDATE paciente SET telefone='$telefone'
 															WHERE cpf='$id';");
 		if($query){
-			header("location:perfil.php");
+			header( "refresh:0.1;url=perfil.php" );
+			
 		}else{
 			die("Erro: ". mysqli_error($link));
 		}

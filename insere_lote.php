@@ -34,7 +34,7 @@
 
 		
 	echo "<script language=javascript>alert( 'Cadastro realizado com sucesso!' );</script>";
-	header("location: lote.php");
+	header( "refresh:0.1;url=lote.php" );
 ?>
 	<body>
 </html>

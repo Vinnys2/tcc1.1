@@ -69,8 +69,8 @@
 	
 	*/
 		
-	echo "<script language=javascript>alert( 'Cadastro realizado com sucesso!' );</script>";
-	header("location:dose.php");
+	echo "<script language=javascript>alert( 'Dose aplicada com sucesso!' );</script>";
+	header( "refresh:0.1;url=dose.php" );
 	
 
 ?>

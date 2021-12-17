@@ -9,7 +9,7 @@
 	
 	$link = mysqli_connect("localhost", "root", "", "tcc");
 	if($link){
-		echo $id;
+		//echo $id;
 
 		$query = mysqli_query($link, "UPDATE lote SET tipo_vacina='$tipo_vacina', 
 															fabricante='$fabricante',
@@ -19,7 +19,8 @@
 															data_validade='$data_validade'
 															WHERE id='$id';");
 		if($query){
-			header("location:lote.php");
+			echo "<script language=javascript>alert( 'Alteração realizada com sucesso!' );</script>";
+	header( "refresh:0.1;url=lote.php" );
 		}else{
 			die("Erro: ". mysqli_error($link));
 		}

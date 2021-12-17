@@ -25,7 +25,7 @@
 
 		
 	echo "<script language=javascript>alert( 'Cadastro realizado com sucesso!' );</script>";
-	header("location: local.php");
+	header( "refresh:0.5;url=local.php" );
 ?>
 	<body>
 </html>

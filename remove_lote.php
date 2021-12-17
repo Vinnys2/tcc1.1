@@ -4,11 +4,12 @@
 	
 	$link = mysqli_connect("localhost", "root", "", "tcc");
 	if($link){
-		echo $id;
+	//	echo $id;
 
 		$query = mysqli_query($link, "DELETE FROM lote WHERE id='$id';");
 		if($query){
-			header("location:lote.php");
+			echo "<script language=javascript>alert( 'Lote removido com sucesso!' );</script>";
+			header( "refresh:0.5;url=lote.php" );
 		}else{
 			die("Erro: ". mysqli_error($link));
 		}

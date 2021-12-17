@@ -9,7 +9,8 @@
 
 		$query = mysqli_query($link, "UPDATE vacina SET tipo='$tipo', descricao='$descricao' WHERE id_vacina='$id_vacina';");
 		if($query){
-			header("location:vacina.php");
+			echo "<script language=javascript>alert( 'Alteração  realizada com sucesso!' );</script>";
+			header( "refresh:0.1;url=vacina.php" );
 		}else{
 			die("Erro: ". mysqli_error($link));
 		}
